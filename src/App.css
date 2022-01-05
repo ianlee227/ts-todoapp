@@ -1,4 +1,5 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
 
 .App {
     width: 100vw;
@@ -6,8 +7,8 @@
     display: flex;
     flex-direction: column;
     algin-items: center;
-    background-color: #f1faee;
-    font-family: "Pretendard", cursive;
+    background-color: #fefae0;
+    font-family: "Barrio", cursive;
 }
 
 .heading {
