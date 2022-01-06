@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
 .input {
     display: flex;
     width: 90%;
@@ -65,10 +67,17 @@
     padding: 5px;
     border: none;
     font-size: 20px;
+    font-family: "Pretendard", cursive;
 }
 
 .todos_single_text:focus {
     outline: none;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {
