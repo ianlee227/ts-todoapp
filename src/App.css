@@ -16,7 +16,8 @@
     font-size: 70px;
     font-weight: 900;
     margin: 30px 0;
-    color: #e63946;
+    /*color: #e63946;*/
+    color: white;
     z-index: 1;
     text-align: center;
 }
