@@ -22,7 +22,7 @@ const InputField:React.FC<Props> = ({todo, setTodo, handleAdd}: Props) => {
         onChange={
           (e) => setTodo(e.target.value)
         }
-        placeholder="ADD YOUR TASK"
+        placeholder="할 일을 입력하세요"
         className="input_box" />
       <button className="input_submit" type="submit">GO</button>
     </form>

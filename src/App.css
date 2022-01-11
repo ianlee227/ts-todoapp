@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     algin-items: center;
-    background-color: #a8dadc;
+    background-color: #edf6f9;
     font-family: "Barrio", cursive;
 }
 
@@ -16,10 +16,18 @@
     font-size: 70px;
     font-weight: 900;
     margin: 30px 0;
-    /*color: #e63946;*/
-    color: white;
+    color: #e63946;
+    /*background: linear-gradient(to right top, #b58ecc, #5de6de);*/
+    /*color: transparent;*/
+    /*-webkit-background-clip: text;*/
     z-index: 1;
     text-align: center;
+    border-bottom: 10px darkblue;
+}
+
+.catimage {
+    margin-left: 30px;
+    width: 150px;
 }
 
 @media (max-width: 800px) {
