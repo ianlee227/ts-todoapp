@@ -57,7 +57,7 @@ const App: React.FC = () => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="App">
-        <span className="heading">To Do app<img className="catimage" src="img/cat.png" alt="cat"/></span>
+        <span className="heading">To Do App<img className="catimage" src="img/cat.png" alt="cat"/></span>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
         <TodoList todos={todos} setTodos={setTodos} CompletedTodos={CompletedTodos} setCompletedTodos={setCompletedTodos} />
       </div>
